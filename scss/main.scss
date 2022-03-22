@@ -1,0 +1,29 @@
+body {
+    background: #ffe8e1;
+}
+
+header {display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-evenly;
+    background: #ffe8e1;
+    color: #eea793;
+}
+
+a {
+    display: flex;
+    padding: 0.5em;
+    list-style: none;
+    color: #9C472e;
+}
+
+@media (min-width: 400px) {
+    ul {
+        flex-direction: row;
+    }
+}
